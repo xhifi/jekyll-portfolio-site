@@ -2151,7 +2151,7 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + 2px); }
 
 .mb-2 { margin-bottom: 0.5rem !important; }
 
-.mb-3, .hero-block .hero-container .left-container p { margin-bottom: 1rem !important; }
+.mb-3, .projects-block .projects-container .projects-row .project-col .project-card .project-body .project-text, .hero-block .hero-container .left-container p { margin-bottom: 1rem !important; }
 
 .mb-4 { margin-bottom: 1.5rem !important; }
 
@@ -2207,7 +2207,7 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + 2px); }
 
 .py-4 { padding-top: 1.5rem !important; padding-bottom: 1.5rem !important; }
 
-.py-5 { padding-top: 3rem !important; padding-bottom: 3rem !important; }
+.py-5, .projects-block .projects-container { padding-top: 3rem !important; padding-bottom: 3rem !important; }
 
 .pt-0 { padding-top: 0 !important; }
 
@@ -2323,7 +2323,7 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + 2px); }
 
 .text-secondary { --bs-text-opacity: 1; color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important; }
 
-.text-success { --bs-text-opacity: 1; color: rgba(var(--bs-success-rgb), var(--bs-text-opacity)) !important; }
+.text-success, .somediv { --bs-text-opacity: 1; color: rgba(var(--bs-success-rgb), var(--bs-text-opacity)) !important; }
 
 .text-info { --bs-text-opacity: 1; color: rgba(var(--bs-info-rgb), var(--bs-text-opacity)) !important; }
 
@@ -2447,28 +2447,44 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + 2px); }
 
 .navigation-block .navigation-container .brand-navigation-block .navigation-list li { display: inline; }
 
-.navigation-block .navigation-container .brand-navigation-block .navigation-list li .nav-link { display: inline; color: #2b0000ff; text-decoration: none; border-radius: 10px; }
+.navigation-block .navigation-container .brand-navigation-block .navigation-list li .nav-link { display: inline; color: black; text-decoration: none; border-radius: 0.8rem; }
 
-.navigation-block .navigation-container .brand-navigation-block .navigation-list li .nav-link:hover { background-color: #2b0000ff; color: white; }
+.navigation-block .navigation-container .brand-navigation-block .navigation-list li .nav-link:hover { background-color: black; color: white; }
 
-.navigation-block .navigation-container .contact-block .nav-link { display: inline; color: #2b0000ff; text-decoration: none; border-radius: 10px; }
+.navigation-block .navigation-container .contact-block .nav-link { display: inline; color: black; text-decoration: none; border-radius: 0.8rem; }
 
-.navigation-block .navigation-container .contact-block .nav-link:hover { background-color: #2b0000ff; color: white; }
+.navigation-block .navigation-container .contact-block .nav-link:hover { background-color: black; color: white; }
 
-.contact-btn, .hero-block .hero-container .left-container a { background-color: none; color: #2b0000ff; border: 3px solid #2b0000ff; display: inline-block; }
+.contact-btn, .hero-block .hero-container .left-container a { background-color: none; color: black; border: 3px solid black; display: inline-block; }
 
-.hero-block .hero-container .left-container h1, .hero-block .hero-container .left-container .h1 { font-size: 3rem !important; font-weight: 300; }
+.hero-block .hero-container .left-container h1, .hero-block .hero-container .left-container .h1 { font-size: 3rem !important; }
 
-.hero-block .hero-container .left-container h1 span, .hero-block .hero-container .left-container .h1 span { font-weight: 600; color: grey; }
+.hero-block .hero-container .left-container h1 span, .hero-block .hero-container .left-container .h1 span { font-family: "Inter", sans-serif; font-weight: 400; color: grey; }
 
-.hero-block .hero-container .left-container p { font-size: 2rem; }
+.hero-block .hero-container .left-container p { font-family: "Libre Baskerville", serif; font-size: 2rem; }
 
-.hero-block .hero-container .left-container a { border-radius: 12px; font-size: 22px; text-decoration: none; transition: all 0.1s linear; display: inline-block; }
+.hero-block .hero-container .left-container a { border-radius: 1rem; font-size: 22px; text-decoration: none; transition: all 0.1s linear; display: inline-block; }
 
-.hero-block .hero-container .left-container a:hover { background-color: #2b0000ff; color: white; }
+.hero-block .hero-container .left-container a:hover { background-color: black; color: white; }
 
-.hero-block .hero-container .right-container { height: 350px; width: 350px; border: 3px solid #2b0000ff; border-radius: 2rem; background-image: url("../media/images/placeholders/person.png"); background-size: cover; background-position: center; }
+.hero-block .hero-container .right-container { height: 350px; width: 350px; border: 3px solid black; border-radius: 1.2rem; background-image: url("../media/images/placeholders/person.png"); background-size: cover; background-position: center; }
 
-.bg-main { background-color: #2b0000ff !important; color: white !important; }
+.projects-block .projects-container .projects-row .project-col .project-card { border-radius: 0.8rem; border-width: 0 !important; overflow: hidden; }
+
+.projects-block .projects-container .projects-row .project-col .project-card .project-img { height: 250px; background-image: url("../media/images/placeholders/person.png"); background-size: cover; background-position: center; border-radius: 0.8rem 0.8rem 0 0; box-shadow: 0px 5px 30px 5px #a4a4a4; position: relative; }
+
+.projects-block .projects-container .projects-row .project-col .project-card .project-img .project-tag { color: black; background-color: #ffc107; padding: 2px 10px 2px 10px; border-radius: 1.2rem; position: absolute; bottom: 15px; left: 15px; }
+
+.projects-block .projects-container .projects-row .project-col .project-card .project-body { background-color: #f3f3f3; }
+
+.projects-block .projects-container .projects-row .project-col .project-card .project-body .project-btn { border-radius: 0.8rem; }
+
+body { font-size: 16px; font-family: "Inter", sans-serif; }
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 { font-family: "Libre Baskerville", serif; font-weight: bold; }
+
+.bg-main { background-color: black !important; color: white !important; }
+
+.text-main { color: black !important; }
 
 /*# sourceMappingURL=style.css.map */

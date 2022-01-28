@@ -11,10 +11,10 @@
             display: inline;
             color: $main;
             text-decoration: none;
-            border-radius: 10px;
+            border-radius: $border-radius;
             &:hover {
               background-color: $main;
-              color: white;
+              color: $partial;
             }
           }
         }
@@ -25,10 +25,10 @@
         display: inline;
         color: $main;
         text-decoration: none;
-        border-radius: 10px;
+        border-radius: $border-radius;
         &:hover {
           background-color: $main;
-          color: white;
+          color: $partial;
         }
       }
     }

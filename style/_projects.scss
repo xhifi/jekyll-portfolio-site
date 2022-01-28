@@ -1,0 +1,43 @@
+.projects-block {
+  .projects-container {
+    @extend .py-5;
+    .projects-row {
+      .project-col {
+        .project-card {
+          border-radius: $border-radius;
+          border-width: 0 !important;
+          overflow: hidden;
+          .project-img {
+            height: 250px;
+            background-image: url("../media/images/placeholders/person.png");
+            background-size: cover;
+            background-position: center;
+            border-radius: $border-radius $border-radius 0 0;
+            box-shadow: $box-shadow;
+            position: relative;
+            .project-tag {
+              color: $main;
+              background-color: $warning;
+              padding: 2px 10px 2px 10px;
+              border-radius: $border-radius-lg;
+              position: absolute;
+              bottom: 15px;
+              left: 15px;
+            }
+          }
+          .project-body {
+            background-color: rgb(243, 243, 243);
+            .project-title {
+            }
+            .project-text {
+              @extend .mb-3;
+            }
+            .project-btn {
+              border-radius: $border-radius;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -4,19 +4,20 @@
       h1 {
         @extend .mb-0;
         font-size: 3rem !important;
-        font-weight: 300;
         span {
-          font-weight: 600;
+          font-family: $main-font;
+          font-weight: 400;
           color: grey;
         }
       }
       p {
+        font-family: $partial-font;
         font-size: 2rem;
         @extend .mb-3;
       }
       a {
         @extend .contact-btn;
-        border-radius: 12px;
+        border-radius: $border-radius-md;
         font-size: 22px;
         text-decoration: none;
         transition: all 0.1s linear;
@@ -32,7 +33,7 @@
       height: 350px;
       width: 350px;
       border: 3px solid $main;
-      border-radius: 2rem;
+      border-radius: $border-radius-lg;
       background-image: url("../media/images/placeholders/person.png");
       background-size: cover;
       background-position: center;

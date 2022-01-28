@@ -9,3 +9,5 @@ baseurl: ""
 sass:
   sass_dir: style
   style: uncompressed
+
+livereload: true

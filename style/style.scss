@@ -3,10 +3,32 @@
 
 @import "bootstrap/scss/bootstrap.scss";
 @import "variables";
+@import "buttons";
 @import "navigation";
 @import "hero";
+@import "projects";
 
+body {
+  font-size: 16px;
+  font-family: $main-font;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $partial-font;
+  font-weight: bold;
+}
 .bg-main {
   background-color: $main !important;
   color: white !important;
+}
+.text-main {
+  color: $main !important;
+}
+
+.somediv {
+  @extend .text-success;
 }
