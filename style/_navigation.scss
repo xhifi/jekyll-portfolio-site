@@ -1,0 +1,47 @@
+.navigation-block {
+  .navigation-container {
+    .brand-navigation-block {
+      .brand {
+        width: 150px;
+      }
+      .navigation-list {
+        li {
+          display: inline;
+          .nav-link {
+            display: inline;
+            color: $main;
+            text-decoration: none;
+            border-radius: 10px;
+            &:hover {
+              background-color: $main;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+    .contact-block {
+      .nav-link {
+        display: inline;
+        color: $main;
+        text-decoration: none;
+        border-radius: 10px;
+        &:hover {
+          background-color: $main;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.nav-link {
+  @extend .px-4, .py-2;
+}
+.contact-btn {
+  @extend .px-4, .py-2;
+  background-color: none;
+  color: $main;
+  border: 3px solid $main;
+  display: inline-block;
+}

@@ -1,0 +1,11 @@
+title: My Portfolio
+description: This is a portfolio generic website
+phone: 02312312312312
+address: Whatever street, Whatever Town, Whatever City, Whatever Country SOME POSTCODE
+
+url: ""
+baseurl: ""
+
+sass:
+  sass_dir: style
+  style: uncompressed

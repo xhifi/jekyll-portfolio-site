@@ -1,0 +1,12 @@
+---
+---
+
+@import "bootstrap/scss/bootstrap.scss";
+@import "variables";
+@import "navigation";
+@import "hero";
+
+.bg-main {
+  background-color: $main !important;
+  color: white !important;
+}
