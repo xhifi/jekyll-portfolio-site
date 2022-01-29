@@ -1,0 +1,14 @@
+.form-inputs {
+  box-shadow: inset 0 0 15px $main;
+  border: none;
+}
+.form-inputs::placeholder {
+}
+.form-inputs:focus {
+  box-shadow: none !important;
+}
+.contact-form {
+  background-color: $main;
+  color: $partial !important;
+  border-radius: $border-radius;
+}

@@ -1,7 +1,13 @@
 title: My Portfolio
 description: This is a portfolio generic website
-phone: 02312312312312
+phone: +1-555-555-5555
+email: info@somedomain.com
 address: Whatever street, Whatever Town, Whatever City, Whatever Country SOME POSTCODE
+
+social:
+  facebook:
+  instagram:
+  github:
 
 url: ""
 baseurl: ""

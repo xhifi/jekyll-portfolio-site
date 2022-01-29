@@ -1,0 +1,38 @@
+.bg-deployed-btn {
+  @extend .btn;
+  background-color: $main;
+  color: $partial;
+  border-color: $main;
+  border-width: 3px;
+  border-radius: $border-radius;
+  &:hover {
+    background-color: transparent;
+    color: $main;
+  }
+}
+
+.outline-deployed-btn {
+  background-color: transparent;
+  border-color: $main;
+  color: $main;
+  border-radius: $border-radius;
+  border-width: 3px;
+  @extend .btn;
+  &:hover {
+    background-color: $main;
+    color: $partial;
+  }
+}
+
+.bg-deployed-btn-lg {
+  @extend .bg-deployed-btn, .btn-lg;
+}
+.bg-deployed-btn-sm {
+  @extend .bg-deployed-btn, .btn-sm;
+}
+.outline-deployed-btn-lg {
+  @extend .outline-deployed-btn, .btn-lg;
+}
+.outline-deployed-btn-sm {
+  @extend .outline-deployed-btn, .btn-sm;
+}

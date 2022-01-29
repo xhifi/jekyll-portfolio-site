@@ -15,19 +15,6 @@
         font-size: 2rem;
         @extend .mb-3;
       }
-      a {
-        @extend .contact-btn;
-        border-radius: $border-radius-md;
-        font-size: 22px;
-        text-decoration: none;
-        transition: all 0.1s linear;
-        display: inline-block;
-        &:hover {
-          @extend .shadow;
-          background-color: $main;
-          color: white;
-        }
-      }
     }
     .right-container {
       height: 350px;

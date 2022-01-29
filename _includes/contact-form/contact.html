@@ -1,0 +1,36 @@
+<div class="container-fluid px-0 py-5">
+  <div class="container px-0">
+    <div class="row align-items-center">
+      <div class="col-6">{% include contact-form/form.html %}</div>
+      <div class="col-6 content">
+        <h3>Contact Me</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
+          blanditiis corporis assumenda recusandae aut tempore neque, sint
+          explicabo, vitae iure quia aspernatur! Temporibus optio est odit ex
+          debitis molestias dignissimos!
+        </p>
+        <p class="mb-0">
+          <b>Phone:</b>
+          <a class="text-decoration-none color-main" href="tel:{{site.phone}}">
+            {{site.phone}}</a
+          >
+        </p>
+        <p class="mb-0">
+          <b>Email:</b>
+          <a
+            class="text-decoration-none color-main"
+            href="mailto:{{site.email}}"
+            >{{site.email}}</a
+          >
+        </p>
+        <p>
+          <b>Address:</b>
+          <a class="text-decoration-none color-main" href="/"
+            >{{site.address}}</a
+          >
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

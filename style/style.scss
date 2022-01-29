@@ -7,7 +7,8 @@
 @import "navigation";
 @import "hero";
 @import "projects";
-
+@import "tech";
+@import "contact";
 body {
   font-size: 16px;
   font-family: $main-font;
@@ -25,10 +26,18 @@ h6 {
   background-color: $main !important;
   color: white !important;
 }
+.bg-partial {
+  background-color: $partial !important;
+  color: white !important;
+}
 .text-main {
   color: $main !important;
 }
 
 .somediv {
   @extend .text-success;
+}
+
+.color-main {
+  color: $main !important;
 }

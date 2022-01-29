@@ -1,0 +1,10 @@
+.tech {
+  border-radius: $border-radius;
+  margin: 0 250px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: inset 0 0 30px #00000080;
+  background-color: $partial;
+}
