@@ -2,3 +2,15 @@
 layout: default
 title: My Experience
 ---
+
+<div class="container-fluid px-0">
+  <div class="container .py-5">
+    <div class="row row-cols-4">
+      {% for item in site.data.moviesDB %} {% include projects/project.html
+      name=item.movieName number=item.index image=item.image
+      date=item.releaseDate %} {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% include buttons/button.html text="Learn More" link="/about" color="blue" %}

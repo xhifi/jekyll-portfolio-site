@@ -1,0 +1,12 @@
+- name: Eric
+  github: github/eric02
+  facebook: eric02
+  dailymail: eric02_dm
+
+- name: Parker
+  facebook: parker.facebook
+  github: parket.github
+  twitter: "@parker412"
+
+- name: Peter
+  dailymail: peter204

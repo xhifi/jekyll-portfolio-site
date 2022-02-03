@@ -1,0 +1,14 @@
+<a
+  class="{{include.color}} btn"
+  href="{{include.link}}"
+  style="background-color: 
+  {% assign color = include.color %}
+  {% if color == "blue" %}
+  blue
+  {% else %}
+  black
+  {% endif %}
+  ;
+  "
+  >{{ include.text }}</a
+>

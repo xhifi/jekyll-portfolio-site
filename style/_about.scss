@@ -1,0 +1,27 @@
+.feature-block {
+  .feature-row {
+    &:nth-child(even) {
+      .content-col {
+        @extend .order-2;
+      }
+      .img-col {
+        @extend .order-1;
+      }
+    }
+    &:nth-child(odd) {
+      .content-col {
+        @extend .order-1;
+      }
+      .img-col {
+        @extend .order-2;
+      }
+    }
+  }
+}
+.img-col {
+  background-image: url("../media/images/placeholders/person.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 250px;
+}

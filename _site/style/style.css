@@ -2063,9 +2063,9 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + 2px); }
 
 .order-0 { order: 0 !important; }
 
-.order-1 { order: 1 !important; }
+.order-1, .feature-block .feature-row:nth-child(odd) .content-col, .feature-block .feature-row:nth-child(even) .img-col { order: 1 !important; }
 
-.order-2 { order: 2 !important; }
+.order-2, .feature-block .feature-row:nth-child(odd) .img-col, .feature-block .feature-row:nth-child(even) .content-col { order: 2 !important; }
 
 .order-3 { order: 3 !important; }
 
@@ -2357,7 +2357,7 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + 2px); }
 
 .text-opacity-100 { --bs-text-opacity: 1; }
 
-.bg-primary { --bs-bg-opacity: 1; background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important; }
+.bg-primary, .img-container { --bs-bg-opacity: 1; background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important; }
 
 .bg-secondary { --bs-bg-opacity: 1; background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important; }
 
@@ -2491,6 +2491,8 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + 2px); }
 
 .contact-form { background-color: black; color: white !important; border-radius: 0.8rem; }
 
+.img-col { background-image: url("../media/images/placeholders/person.png"); background-size: cover; background-position: center; background-repeat: no-repeat; height: 250px; }
+
 body { font-size: 16px; font-family: "Inter", sans-serif; }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 { font-family: "Libre Baskerville", serif; font-weight: bold; }
@@ -2502,5 +2504,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 { font-family: "Libre Baske
 .text-main { color: black !important; }
 
 .color-main { color: black !important; }
+
+.project-img { min-height: 250px; }
 
 /*# sourceMappingURL=style.css.map */
