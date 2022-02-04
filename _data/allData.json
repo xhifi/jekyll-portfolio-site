@@ -1,0 +1,83 @@
+{
+  "title": "Hello World",
+  "siteMetadata": {
+    "title": "My Portfolio Website",
+    "description": "This is some site description",
+    "socials": {
+      "facebook": {
+        "url": "https://www.facebook.com/",
+        "icon": "facebook"
+      },
+      "twitter": {
+        "url": "https://twitter.com/",
+        "icon": "twitter"
+      },
+      "phone": {
+        "url": "0203 6599254",
+        "icon": "phone"
+      },
+      "email": {
+        "url": "info@yourdomain.com",
+        "icon": "envelope"
+      },
+      "address": {
+        "url": "info@yourdomain.com",
+        "icon": "pin"
+      }
+    }
+  },
+  "pages": [
+    {
+      "title": "Home",
+      "path": "/",
+      "mainHeading": "Hi my name is Namrah Khan",
+      "mainText": "And I am a Graduate in Computer Sciences, currently working with more than 4 Languagesa and 8 Frameworks!"
+    },
+    {
+      "title": "About Me",
+      "path": "/about",
+      "mainHeading": "Graduate of Year 2022",
+      "mainText": "I excel in "
+    },
+    {
+      "title": "My Experience",
+      "path": "/experience",
+      "mainHeading": "",
+      "mainText": ""
+    },
+    {
+      "title": "My Blog",
+      "path": "/blog",
+      "mainHeading": "",
+      "mainText": ""
+    },
+    {
+      "title": "Hire Me",
+      "path": "/contact",
+      "mainHeading": "",
+      "mainText": ""
+    }
+  ],
+  "projects": [
+    {
+      "title": "Project 1",
+      "image": "media/images/placeholders/person.png",
+      "description": "This is description for project 1 and project 1 alone."
+    },
+    {
+      "title": "Project 2",
+      "image": "media/images/placeholders/person.png",
+      "description": "This is some very long long description. Probably because this contains aa lot of text. What a lot of text makes when it combines with some punctuation? A long log field of content."
+    },
+    {
+      "title": "Project 3",
+      "image": "media/images/placeholders/person.png",
+      "description": "This is some description for the third block."
+    },
+    {
+      "title": "Project X",
+      "image": "media/images/placeholders/person.png",
+      "description": "Some secret sauce for Generation X."
+    }
+  ]
+}

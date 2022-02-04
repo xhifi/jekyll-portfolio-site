@@ -2,11 +2,8 @@
 include projects/project.html %} -->
 <div class="container-fluid px-0 projects-block">
   <div class="container px-0 projects-container">
-    <div class="row gx-4 gy-4 projects-row">
-      {% include projects/project.html %} {% include projects/project.html %} {%
-      include projects/project.html %} {% include projects/project.html %} {%
-      include projects/project.html %} {% include projects/project.html %} {%
-      include projects/project.html %} {% include projects/project.html %}
+    <div class="row gx-4 gy-4 row-cols-3 projects-row">
+      {% for item in site.data.allData.projects %} {% include projects/project.html name=item.title text=item.description image=item.image number=forloop.index %} {% endfor %}
     </div>
   </div>
 </div>

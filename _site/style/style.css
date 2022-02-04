@@ -2477,7 +2477,7 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + 2px); }
 
 .projects-block .projects-container .projects-row .project-col .project-card .project-img { height: 250px; background-image: url("../media/images/placeholders/person.png"); background-size: cover; background-position: center; border-radius: 0.8rem 0.8rem 0 0; box-shadow: 0px 5px 30px 5px #a4a4a4; position: relative; }
 
-.projects-block .projects-container .projects-row .project-col .project-card .project-img .project-tag { color: black; background-color: #ffc107; padding: 2px 10px 2px 10px; border-radius: 1.2rem; position: absolute; bottom: 15px; left: 15px; }
+.projects-block .projects-container .projects-row .project-col .project-card .project-img .project-tag { color: black !important; background-color: #ffc107; padding: 2px 10px 2px 10px; border-radius: 1.2rem; position: absolute; bottom: 15px; left: 15px; }
 
 .projects-block .projects-container .projects-row .project-col .project-card .project-body { background-color: #f3f3f3; }
 
