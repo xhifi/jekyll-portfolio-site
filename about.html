@@ -3,5 +3,4 @@ layout: default
 title: About Me
 ---
 
-{% include about/about.html %} {% include tech/tech.html %} {% include
-about/features.html content="This is my sample note." %}
+{% include about/about.html %} {% include tech/tech.html %} {% for i in (1..5) %} {% include about/features.html content="This is my sample note." %} {% endfor %}

@@ -24,6 +24,19 @@
   }
 }
 
+.outline-deployed-btn-w-lg {
+  background-color: transparent;
+  border-color: $partial;
+  color: $partial;
+  border-radius: $border-radius;
+  border-width: 3px;
+  @extend .btn;
+  &:hover {
+    background-color: $partial;
+    color: $main;
+  }
+}
+
 .bg-deployed-btn-lg {
   @extend .bg-deployed-btn, .btn-lg;
 }

@@ -61,23 +61,28 @@
   "projects": [
     {
       "title": "Project 1",
-      "image": "media/images/placeholders/person.png",
+      "image": "person.png",
       "description": "This is description for project 1 and project 1 alone."
     },
     {
       "title": "Project 2",
-      "image": "media/images/placeholders/person.png",
+      "image": "person.png",
       "description": "This is some very long long description. Probably because this contains aa lot of text. What a lot of text makes when it combines with some punctuation? A long log field of content."
     },
     {
       "title": "Project 3",
-      "image": "media/images/placeholders/person.png",
+      "image": "person.png",
       "description": "This is some description for the third block."
     },
     {
       "title": "Project X",
-      "image": "media/images/placeholders/person.png",
+      "image": "person.png",
       "description": "Some secret sauce for Generation X."
+    },
+    {
+      "title": "Project 4",
+      "description": "",
+      "image": "lady.jpg"
     }
   ]
 }
